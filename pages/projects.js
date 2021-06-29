@@ -3,7 +3,7 @@ import Project from "../components/Project";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="h-screen overflow-auto">
       <Head>
         <title>Projects</title>
         <link

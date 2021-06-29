@@ -74,7 +74,7 @@ export default function Header() {
                     Projects
                   </h1>
                 </Link>
-                <div className="space-x-3">
+                <div className="flex flex-row space-x-3">
                   <a href="https://github.com/malssid" target="_blank">
                     <i className="text-gray-800 cursor-pointer fab fa-github fa-lg transition duration-500 hover:text-gray-600"></i>
                   </a>

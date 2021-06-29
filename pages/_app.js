@@ -7,7 +7,7 @@ import "@fortawesome/fontawesome-free/js/brands";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="bg-gradient-to-r from-white to-blue-100 h-screen overflow-auto">
+    <div className="bg-gradient-to-r from-white to-blue-100 min-h-screen">
       <Header />
       <Component {...pageProps} />
     </div>
