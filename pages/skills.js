@@ -3,7 +3,7 @@ import Skill from "../components/Skill";
 
 export default function Skills() {
   return (
-    <div className="h-screen overflow-auto">
+    <div>
       <Head>
         <title>Skills</title>
         <link

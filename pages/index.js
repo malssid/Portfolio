@@ -13,13 +13,13 @@ export default function Home() {
             <span className="sm:text-4xl text-3xl">
               Hey! <span className="wave">👋</span>
             </span>{" "}
-            My name is Michael. I am currently a senior at the University
-            of Rhode Island studying Computer Science with a minor in
-            Cyber Security. I have always been fascinated with how complex web
+            My name is Michael. I am currently a senior at the University of
+            Rhode Island studying Computer Science with a minor in Cyber
+            Security. I have always been fascinated with how complex web
             applications could be but I never really looked into how they were
-            made. In the summer of 2020, stuck in my home because of the
-            pandemic, I was encouraged to learn HTML, CSS and
-            Javascript and since then my goal has been to land a job as a{" "}
+            made. In the summer of 2020, stuck in my home because of the Covid-19
+            pandemic, I was encouraged to learn HTML, CSS and Javascript and
+            since then my goal has been to land a job as a{" "}
             <span className="sm:text-xl text-lg font-bold text-gray-800">
               Full Stack Developer
             </span>{" "}
