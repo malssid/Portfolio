@@ -1,82 +1,42 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Home</title>
       </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+      <div className="flex flex-col items-center">
+        <div className="flex text-center sm:text-left flex-col px-10 sm:px-14 my-4 sm:flex-row justify-center items-center">
+          <img src="/avataaars.svg" className="sm:w-60 w-48 sm:mb-0 mb-4" />
+          <p className="sm:w-3/4 lg:w-2/4 sm:text-lg">
+            <span className="sm:text-4xl text-3xl">
+              Hey! <span className="wave">👋</span>
+            </span>{" "}
+            My name is Michael. I am currently a senior at the University
+            of Rhode Island studying Computer Science with a minor in
+            Cyber Security. I have always been fascinated with how complex web
+            applications could be but I never really looked into how they were
+            made. In the summer of 2020, stuck in my home because of the
+            pandemic, I was encouraged to learn HTML, CSS and
+            Javascript and since then my goal has been to land a job as a{" "}
+            <span className="sm:text-xl text-lg font-bold text-gray-800">
+              Full Stack Developer
+            </span>{" "}
+            .
+          </p>
+        </div>
+        <div className="mb-4 flex sm:flex-row flex-col items-center space-x-2">
+          <h1 className="text-2xl text-center">Check out my resume </h1>
           <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="transition duration-500 ease-in-out hover:bg-blue-300 transform hover:scale-95 text-2xl font-semibold cursor-pointer bg-blue-400 p-2 rounded-xl text-center mt-2 sm:mt-0"
+            href="resume.pdf"
+            target="_blank"
           >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            here!
           </a>
         </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+      </div>
     </div>
-  )
+  );
 }
