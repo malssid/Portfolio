@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Project({ name, desc, livelink, ghublink, tech }) {
   return (
-    <div className="shadow-xl bg-white mb-3 p-4 rounded-lg mx-3 text-center">
-      <h1 className="text-2xl">{name}</h1>
-      <h2 className="text-md text-gray-700">{desc}</h2>
-      <div className="flex flex-col mt-2 divide-y divide-gray-400">
+    <div className="shadow-xl bg-blue-900 mb-3 p-4 rounded-lg mx-3 text-center">
+      <h1 className="text-2xl text-white">{name}</h1>
+      <h2 className="text-md text-gray-300">{desc}</h2>
+      <div className="flex flex-col mt-2 divide-y divide-gray-500">
         <div className="space-x-2 mb-4">
           <a
             href={livelink}
@@ -23,10 +23,10 @@ export default function Project({ name, desc, livelink, ghublink, tech }) {
           </a>
         </div>
         <div className="flex flex-col">
-          <h2 className="font-bold text-lg mt-2">Tech</h2>
+          <h2 className="font-bold text-lg mt-2 text-white">Tech</h2>
           <div className="flex flex-wrap justify-center">
             {tech.map((item, index) => (
-              <p className="text-gray-700" key={index}>
+              <p className="text-gray-300" key={index}>
                 &nbsp;{item}
               </p>
             ))}
