@@ -7,7 +7,7 @@ import "@fortawesome/fontawesome-free/js/brands";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" id="screenGradient">
       <Header />
       <Component {...pageProps} />
     </div>
