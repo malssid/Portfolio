@@ -13,7 +13,7 @@ export default function Projects() {
       </Head>
       <div className="flex flex-col items-center">
         <h1 className="sm:text-5xl text-4xl mt-4 text-gray-800">My Projects</h1>
-        <table className="mt-4">
+        <table className="mt-8">
           <tr>
             <td>
               <Project
