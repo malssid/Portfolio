@@ -14,16 +14,16 @@ export default function Home() {
               Hey! <span className="wave">👋</span>
             </span>{" "}
             My name is Michael. I am currently a senior at the University of
-            Rhode Island studying Computer Science with a minor in Cyber
-            Security. I have always been fascinated with how complex web
-            applications could be but I never really looked into how they were
-            made. In the summer of 2020, stuck in my home because of the Covid-19
-            pandemic, I was encouraged to learn HTML, CSS and Javascript and
-            since then my goal has been to land a job as a{" "}
-            <span className="sm:text-xl text-lg font-bold text-gray-800">
-              Full Stack Developer
-            </span>{" "}
-            .
+            Rhode Island, majoring in Computer Science with a minor in Cyber
+            Security. I have long been fascinated with complex web applications,
+            but I never really understood how they were constructed. In the
+            summer of 2020, stuck in my home because of the Covid-19 pandemic, I
+            decided to dig in and study HTML, CSS and Javascript. Now I
+            understand how complex web applications are built, and I know how to
+            build them myself. As I enter my final semester at URI, I am ready
+            to apply my skills in the workplace as a software engineer. I am
+            taking just one course in the Spring Semester, and available to
+            begin working at least part time, before I graduate in May 2022.
           </p>
         </div>
         <div className="mb-4 flex sm:flex-row flex-col items-center space-x-2">
