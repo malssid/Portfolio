@@ -17,6 +17,7 @@ export default function Projects() {
           <Project
             name="RhodyRates"
             desc="Coursicle-like site for rating University of Rhode Island courses"
+            livelink="https://rhodyrates.com/"
             ghublink="https://github.com/malssid/rhody-rates"
             tech={[
               "ReactJS,",
