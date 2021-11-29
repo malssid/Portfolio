@@ -15,6 +15,18 @@ export default function Projects() {
         <h1 className="sm:text-5xl text-4xl mt-4 text-gray-800">My Projects</h1>
         <div className="mt-8 flex flex-col items-center">
           <Project
+            name="RhodyRates"
+            desc="Coursicle-like site for rating University of Rhode Island courses"
+            ghublink="https://github.com/malssid/rhody-rates"
+            tech={[
+              "ReactJS,",
+              "ChakraUI,",
+              "Express,",
+              "PostgreSQL,",
+              "Docker",
+            ]}
+          />
+          <Project
             name="Brighterspace"
             desc="A knock-off of Brightspace (Learning Management System)"
             livelink="http://brighterspace.vercel.app/"
