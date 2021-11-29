@@ -35,6 +35,11 @@ export default function Skills() {
                 link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
               />
               <Skill
+                name="Python"
+                logo="devicon-python-plain"
+                link="https://www.python.org/"
+              />
+              <Skill
                 name="C++"
                 logo="devicon-cplusplus-plain"
                 link="https://www.cplusplus.com/"
