@@ -18,12 +18,10 @@ export default function Home() {
             Security. I have long been fascinated with complex web applications,
             but I never really understood how they were constructed. In the
             summer of 2020, stuck in my home because of the Covid-19 pandemic, I
-            decided to dig in and study HTML, CSS and Javascript. Now I
-            understand how complex web applications are built, and I know how to
-            build them myself. As I enter my final semester at URI, I am ready
+            decided to dig in and study HTML, CSS and Javascript. As I enter my final semester at URI, I am ready
             to apply my skills in the workplace as a software engineer. I am
             taking just one course in the Spring Semester, and available to
-            begin working at least part time, before I graduate in May 2022.
+            begin working before I graduate in May 2022.
           </p>
         </div>
         <div className="mb-4 flex sm:flex-row flex-col items-center space-x-2">
