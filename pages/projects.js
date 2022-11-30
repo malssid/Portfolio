@@ -28,13 +28,6 @@ export default function Projects() {
             ]}
           />
           <Project
-            name="Brighterspace"
-            desc="A knock-off of Brightspace (Learning Management System)"
-            livelink="http://brighterspace.vercel.app/"
-            ghublink="https://github.com/malssid/brighterspace"
-            tech={["NextJS,", "ChakraUI,", "MySQL"]}
-          />
-          <Project
             name="Portfolio"
             desc="My portfolio page"
             livelink="https://michaelalssid.dev/"

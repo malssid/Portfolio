@@ -35,14 +35,19 @@ export default function Skills() {
                 link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
               />
               <Skill
+                name="Elixir"
+                logo="devicon-elixir-plain"
+                link="https://elixir-lang.org/"
+              />
+              <Skill
                 name="Python"
                 logo="devicon-python-plain"
                 link="https://www.python.org/"
               />
               <Skill
-                name="C++"
-                logo="devicon-cplusplus-plain"
-                link="https://www.cplusplus.com/"
+                name="C#"
+                logo="devicon-csharp-plain"
+                link="https://learn.microsoft.com/en-us/dotnet/csharp/"
               />
             </div>
           </div>
@@ -63,14 +68,9 @@ export default function Skills() {
                 link="https://expressjs.com/"
               />
               <Skill
-                name="MySQL"
-                logo="devicon-mysql-plain"
-                link="https://www.mysql.com/"
-              />
-              <Skill
-                name="MongoDB"
-                logo="devicon-mongodb-plain"
-                link="https://www.mongodb.com/"
+                name="PostgreSQL"
+                logo="devicon-postgresql-plain"
+                link="https://www.postgresql.org/"
               />
               <Skill
                 name="TailwindCSS"

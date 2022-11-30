@@ -13,15 +13,7 @@ export default function Home() {
             <span className="sm:text-4xl text-3xl">
               Hey! <span className="wave">👋</span>
             </span>{" "}
-            My name is Michael. I am currently a senior at the University of
-            Rhode Island, majoring in Computer Science with a minor in Cyber
-            Security. I have long been fascinated with complex web applications,
-            but I never really understood how they were constructed. In the
-            summer of 2020, stuck in my home because of the Covid-19 pandemic, I
-            decided to dig in and study HTML, CSS and Javascript. As I enter my final semester at URI, I am ready
-            to apply my skills in the workplace as a software engineer. I am
-            taking just one course in the Spring Semester, and available to
-            begin working before I graduate in May 2022.
+            My name is Michael. I am currently looking for a Software Engineering position, in-person or hybrid in the Providence/Boston area.
           </p>
         </div>
         <div className="mb-4 flex sm:flex-row flex-col items-center space-x-2">
