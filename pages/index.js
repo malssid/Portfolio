@@ -13,7 +13,7 @@ export default function Home() {
             <span className="sm:text-4xl text-3xl">
               Hey! <span className="wave">👋</span>
             </span>{" "}
-            My name is Michael. I am currently looking for a Software Engineering position, in-person or hybrid in the Providence/Boston area.
+            My name is Michael. I am currently a Full Stack Developer at Supporting Strategies.
           </p>
         </div>
         <div className="mb-4 flex sm:flex-row flex-col items-center space-x-2">
